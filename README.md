@@ -5,9 +5,13 @@
 This project was built using these technologies.
 
 React.js
+<br>
 React-dom
+<br>
 Redux
+<br>
 Vite.js
+<br>
 
 🎨 Styled with TailWind Css 
 
