@@ -1,5 +1,4 @@
-**This YouTube clone offers a familiar layout with a sidebar, dynamic searching, and has all the basic functionality of the original domain **
-**Built With**
+<span style="font-weight: 700;">This YouTube clone offers a familiar layout with a sidebar, dynamic searching, and has all the basic functionality of the original domain.</span>**Built With**
 
 This project was built using these technologies.
 
