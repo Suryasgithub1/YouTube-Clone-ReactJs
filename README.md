@@ -1,12 +1,30 @@
-# React + Vite
+**This is a basic clone of YouTube, with all the features of the sidebar, search Box, and videos showing and playing.**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Built With**
 
-Currently, two official plugins are available:
+This project was built using these technologies.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+React.js
+React-dom
+Redux
+Vite.js
 
-## Expanding the ESLint configuration
+🎨 Styled with TailWind Css 
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+📱 Fully Responsive
+
+**Getting Started**
+Clone down this repository. You will need git installed globally on your machine.
+
+**🛠 Installation and Setup Instructions**
+Installation: npm install
+
+In the project directory, you can run: npm run dev
+
+Runs the app in the development mode.
+Open http://localhost:3000 to view it in the browser. The page will reload if you make edits.
+
+**Usage Instructions**
+Open the project folder and Navigate to /src/components/.
+You will find all the components used and you can edit your information accordingly.
+
