@@ -1,5 +1,4 @@
-**This is a basic clone of YouTube, with all the features of the sidebar, search Box, and videos showing and playing.**
-
+**This YouTube clone offers a familiar layout with a sidebar, dynamic searching, and has all the basic functionality of the original domain **
 **Built With**
 
 This project was built using these technologies.
@@ -12,10 +11,7 @@ Redux
 <br>
 Vite.js
 <br>
-
 🎨 Styled with TailWind Css 
-
-📱 Fully Responsive
 
 **Getting Started**
 Clone down this repository. You will need git installed globally on your machine.
