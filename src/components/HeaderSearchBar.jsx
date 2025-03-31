@@ -38,7 +38,7 @@ const HeaderSearchBar = () => {
         <div className="flex" >
                 <input onChange={handleChange} 
                     onFocus = {()=> setShowSuggestions(true) }
-                    //onBlur = {()=> setShowSuggestions(false) }
+                    onBlur = {()=> setShowSuggestions(false) }
                 className = "w-120 bg-gray-200 p-2 rounded-l-[30px]" type="text" placeholder="Search"/>
                 <button><img className = " w-10 bg-gray-300 p-3 rounded-r-[30px]"  src="https://www.svgrepo.com/show/7109/search.svg" alt="Search" /></button>
                 <button><img className = " w-10 bg-gray-200 p-2 rounded-full ml-2 "  src="https://www.iconpacks.net/icons/1/free-microphone-icon-342-thumb.png" alt="Microphone" /></button>
