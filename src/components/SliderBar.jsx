@@ -10,8 +10,9 @@ const SliderBar = () => {
   if (!storeData) return (
     <div>
       <ul className='  mt-5'>
-        <li> <img className = " font-bold w-15 pl-4" src="https://www.svgrepo.com/show/13696/house.svg" alt="Home Silder" /> 
-        <Link to = "/"> <p className = " text-xs text-center" >Home</p> </Link>
+        <li> 
+        <Link to = "/"> <img className = " font-bold w-15 pl-4" src="https://www.svgrepo.com/show/13696/house.svg" alt="Home Silder" /> 
+        </Link>
         </li>
       </ul>
       <ul className=' mt-5'>
@@ -35,7 +36,11 @@ const SliderBar = () => {
   return (
     <div>
       <ul className=' font-bold mt-5'>
-        <li>Home</li>
+        
+      <li> 
+        <Link to = "/"> <p >Home</p> 
+        </Link>
+        </li>
         <li>Shorts</li>
         <li>Subscription</li>
       </ul>
