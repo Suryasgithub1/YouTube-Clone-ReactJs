@@ -10,14 +10,14 @@ const HeaderSearchBarResult = ({props, minimiseResults}) => {
   const navigate = useNavigate();
 
   const getSearchTextResults = async (searchText) => {
-          const data = await fetch (ClickedSearchBoxTextResults + searchText);
-          const json = await data.json();
           
-          setDataSearchText(json);  
+          const data = await fetch (ClickedSearchBoxTextResults + searchText);
+          console.log(data)
+          const json = await data.json();  
+          setDataSearchText(json);
       }
 
   const handleClick = (e) => {
-      console.log(e.target.textContent);
       setSearchText(e.target.textContent)
       const modifiedSearchText = (e.target.textContent).replace(/ /g, "+")
       navigate(`/results?search_query=${modifiedSearchText}`)

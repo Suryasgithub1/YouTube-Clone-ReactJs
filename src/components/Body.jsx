@@ -8,7 +8,7 @@ import Header from "./Header";
 
 const Body = () => {
     return (
-        <div>
+        <div className="w-[1400]">
         <Header />
         <div className="flex px-5 mt-2">       
             <SliderBar />

@@ -22,7 +22,7 @@ const VideoComponent = () => {
    
   return (
 
-  <div className="mx-10 mt-10 flex flex-wrap gap-5 ">
+  <div className="w-[1130px] ml-10 mt-10 flex flex-wrap gap-5 ">
     {videosData.map((items) => (
      <Link to =  {"/watch?v=" + items.id} key= {items.id} >
         <VideoCard items = {items} /> 
