@@ -6,13 +6,15 @@ import BtnLists from './BtnLists'
 
 const WatchComponent = () => {
   return (
-    <div className = "flex">
-      <div>
-        <BtnLists />
-        <WatchComponentVideo />
-        <WatchComponentComments />
-      </div>
-        <WatchComponentSideBar />  
+    <div >   
+         <BtnLists />
+        <div className = "flex">
+        <div >
+          <WatchComponentVideo />
+          <WatchComponentComments />
+        </div>
+        <WatchComponentSideBar /> 
+        </div> 
     </div>
   )
 }

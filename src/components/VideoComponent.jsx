@@ -21,13 +21,14 @@ const VideoComponent = () => {
 
    
   return (
-
-  <div className="w-[1130px] ml-10 mt-10 flex flex-wrap gap-5 ">
-    {videosData.map((items) => (
-     <Link to =  {"/watch?v=" + items.id} key= {items.id} >
-        <VideoCard items = {items} /> 
-       </Link>
-    ))}
+  <div className="flex" >
+    <div className="w-[1130px] ml-10 mt-10 flex flex-wrap gap-5 ">
+      {videosData.map((items) => (
+      <Link to =  {"/watch?v=" + items.id} key= {items.id} >
+          <VideoCard items = {items} /> 
+        </Link>  
+      ))}
+    </div>  
   </div>
   );
 }

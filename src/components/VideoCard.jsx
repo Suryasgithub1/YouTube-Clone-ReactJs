@@ -12,7 +12,7 @@ const VideoCard = ({items}) => {
         <h2 className="text-base">{items?.snippet?.channelTitle}</h2>
         <div className="flex">
           <h3 className="text-sm">{items?.statistics?.viewCount}</h3>
-          <h3 className="text-sm">-- {items?.snippet?.publishedAt}</h3>
+          <h3 className="text-sm"> {items?.snippet?.publishedAt}</h3>
         </div>
       </div>
   )

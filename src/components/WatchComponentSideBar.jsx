@@ -4,7 +4,7 @@ import VideoComponent from "./VideoComponent"
 const WatchComponentSideBar = ({items}) => {
   return (
     <div>
-        <div key={items} className="w-90 border-0 rounded-lg cursor-pointer shadow-lg">
+        {/* <div key={items} className="w-90 border-0 rounded-lg cursor-pointer shadow-lg">
         <img
           className="w-full border-0 rounded-lg"
           src={items?.snippet?.thumbnails?.medium?.url}
@@ -16,9 +16,11 @@ const WatchComponentSideBar = ({items}) => {
           <h3 className="text-sm">{items?.statistics?.viewCount}</h3>
           <h3 className="text-sm">-- {items?.snippet?.publishedAt}</h3>
         </div>
-      </div>
+      </div> */
+      <h1>Surya Deep</h1>
+      }
     </div>
   )
 }
 
-export default WatchComponentSideBar
+export default WatchComponentSideBar;

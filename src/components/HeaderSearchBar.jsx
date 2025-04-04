@@ -84,7 +84,7 @@ const HeaderSearchBar = () => {
         </button>
       </div>
       {showSuggestions && (
-        <div className="flex flex-col s fixed bg-gray-100 rounded-lg">
+        <div className="flex flex-col s fixed bg-gray-100 rounded-lg z-50">
           {searchTextResults &&
             searchTextResults.map((item, index) => (
               <HeaderSearchBarResult key={index} props={item} minimiseResults = {setShowSuggestions} />

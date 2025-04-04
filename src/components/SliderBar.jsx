@@ -12,6 +12,7 @@ const SliderBar = () => {
       <ul className='  mt-5'>
         <li> 
         <Link to = "/"> <img className = " font-bold w-15 pl-4" src="https://www.svgrepo.com/show/13696/house.svg" alt="Home Silder" /> 
+        <p className = " text-xs text-center" >Home</p>
         </Link>
         </li>
       </ul>
