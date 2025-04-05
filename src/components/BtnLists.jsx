@@ -7,10 +7,6 @@ const BtnLists = () => {
   const navigate = useNavigate();
   const scrollContainerRef = useRef(null);
 
-  const handleClick = (e) => {
-    navigate(`/results?search_query=${e.target.textContent.replace(/ /g, '')}`);
-  };
-
   const scrollLeft = () => {
     if (scrollContainerRef.current) {
       scrollContainerRef.current.scrollLeft -= 150; // Adjust scroll distance as needed
@@ -27,7 +23,7 @@ const BtnLists = () => {
     <div className="relative w-[1177px]">
       <div
         ref={scrollContainerRef}
-        className="whitespace-nowrap ml-[28px] overflow-x-auto hide-scrollbar"
+        className="whitespace-nowrap ml-[28px] overflow-x-auto "
         style={{ scrollbarWidth: 'none' }} 
       >
         {buttonsArrays.map((items, index) => (
