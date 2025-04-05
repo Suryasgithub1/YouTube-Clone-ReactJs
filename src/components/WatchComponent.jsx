@@ -9,7 +9,7 @@ const WatchComponent = () => {
     <div >   
          <BtnLists />
         <div className = "flex">
-        <div >
+        <div className='w-[850px]' >
           <WatchComponentVideo />
           <WatchComponentComments />
         </div>
