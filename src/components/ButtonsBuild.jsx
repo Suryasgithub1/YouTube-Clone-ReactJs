@@ -8,8 +8,7 @@ const ButtonsBuild = (info) => {
   const searchParams = new URLSearchParams(url.search);
   const query = searchParams.get('search_query');
   const currentLocation = (location.pathname)
-  //console.log(currentLocation)
-  console.log(query)
+
 
   const navigate = useNavigate();
   
