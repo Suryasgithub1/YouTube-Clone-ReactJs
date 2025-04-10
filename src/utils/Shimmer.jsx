@@ -4,10 +4,10 @@ const ShimmerMainPage = () => {
   const numberOfTimes = 6;
   return (
     <div className="flex flex-wrap">
-      {Array.from({ length: numberOfTimes }).map(( index) => (
+      {Array.from({ length: numberOfTimes }).map((_, index) => (
         <div
-          key={index} // Add a unique key for each element
-          className="mt-10 mb-6 ml-10 w-90 border-0 rounded-lg cursor-pointer hover:shadow-lg"
+          key={(index)}
+          className="mt-10 mb-6 ml-10 w-88 border-0 rounded-lg cursor-pointer hover:shadow-lg"
         >
           <img
             className="w-full border-0 rounded-lg h-[200px]"

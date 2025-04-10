@@ -2,8 +2,6 @@ import React from 'react'
 import {viewsCount, timePublished} from "../utils/YouTubeViewsAndTimeStamp"
 
 const VideoCard = ({items}) => {
-  
-  // console.log(items);
   return (
         <div key={items} className="w-90 border-0 rounded-lg cursor-pointer hover:shadow-lg">
         <img

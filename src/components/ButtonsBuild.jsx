@@ -14,11 +14,12 @@ const ButtonsBuild = (info) => {
   
   const handleClick = (e) => {
     navigate(`/results?search_query=${e.target.textContent.replace(/ /g, '')}`);
+
     if (currentLocation === '/'){
       buttonClass = "w-auto bg-gray-600 mx-3 p-2 rounded-[10px] cursor-pointer";
     } else if ((info.info)== query ){
       buttonClass = "w-auto bg-gray-200 mx-3 p-2 rounded-[10px] cursor-pointer";
-  }
+    }
   };
 
 
