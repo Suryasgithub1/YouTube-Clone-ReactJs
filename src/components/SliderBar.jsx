@@ -48,7 +48,7 @@ const SliderBar = () => {
       <ul className=' mt-5'>
         <li className=' font-bold'>You &gt; </li>
           <ul>
-            <li>History</li>
+          <Link to = "history"><li>History</li></Link>
             <li>Playlist</li>
             <li>Your Videos</li>
             <li>Watch Later</li>
@@ -58,7 +58,7 @@ const SliderBar = () => {
       <ul >
         <li className=' font-bold mt-5' > Subscriptions </li> 
         <ul>
-            <li>History</li>
+            <Link to = "history"><li>History</li></Link>
             <li>Playlist</li>
             <li>Your Videos</li>
             <li>Watch Later</li>

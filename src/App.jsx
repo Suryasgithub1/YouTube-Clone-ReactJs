@@ -5,10 +5,11 @@ import { Provider } from "react-redux"
 import store from "./utils/store"
 import { createBrowserRouter, RouterProvider } from "react-router-dom"
 import WatchComponent from "./components/WatchComponent"
-import SliderBar from "./components/SliderBar"
 import MainContainer from "./components/MainContainer"
 import SearchResults from ".//components/SearchResults"
 import HeaderSearchBarResult from "./components/HeaderSearchBarResult"
+import Login from "./components/Login"
+import History from "./components/History"
 
 function App() {
 
@@ -31,8 +32,15 @@ function App() {
         path: "searchresults", 
         element: <HeaderSearchBarResult />,
       },
-
+      {
+        path: "history", 
+        element: <History />,
+      }
     ]
+    },
+    {
+      path: "login", 
+      element: <Login />,
     }
   ]);
 
